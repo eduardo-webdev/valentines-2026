@@ -1,4 +1,5 @@
 import Confetti from "react-confetti-boom";
+import { catGIF } from "/src/assets/celebrate.gif";
 
 export default function Success() {
   return (
@@ -9,7 +10,7 @@ export default function Success() {
         particleCount={100}
         colors={["#ff6b6b", "#4ecdc4", "#ffe66d"]}
       />
-      <img src="src/assets/celebrate.GIF" alt="Success" className="w-70 h-70" />
+      <img src={catGIF} alt="Success" className="w-70 h-70" />
       <h1 className="text-center text-4xl font-bold text-[#e7e1e1] pt-8 px-5 absolute top-10">
         THANK YOUUUU!! I HOPE YOU ENJOY THE DONUTS ❤️❤️❤️
       </h1>
