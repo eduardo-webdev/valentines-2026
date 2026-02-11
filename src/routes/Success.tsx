@@ -1,5 +1,5 @@
 import Confetti from "react-confetti-boom";
-import { catGIF } from "/src/assets/celebrate.gif";
+import { catGIF } from "/src/assets/celebrate.GIF";
 
 export default function Success() {
   return (
